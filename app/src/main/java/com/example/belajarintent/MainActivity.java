@@ -28,4 +28,20 @@ public class MainActivity extends AppCompatActivity {
         bukabrowser.setData(Uri.parse(url));
         startActivity(bukabrowser);
     }
+
+    public void tentang(View view) {
+        Intent tentang= new Intent(MainActivity.this,TENTANG.class);
+        startActivity(tentang);
+    }
+
+    public void teks2(View view) {
+        Intent teks= new Intent(MainActivity.this,TENTANG.class);
+        startActivity(teks);
+    }
+
+    public void teks1(View view) {
+        Intent teks1= new Intent(MainActivity.this,TENTANG.class);
+        startActivity(teks1);
+    }
+
 }
